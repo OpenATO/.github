@@ -5,10 +5,6 @@
 #         description: A very inspiring description
 #         aliases: ['first', 'second', 'third']
 #
-#
-#
-#
-
 
 
 #
@@ -21,27 +17,27 @@
   description: Issues related to tasks that need to be completed
   aliases: ['Work Item', 'To-Do', 'Task Item']
 
-- name:   🧰 Maintenance
+- name: 🧰 Maintenance
   color: 'CC0033'
   description: Issues related to maintenance and upkeep of the project
   aliases: ['Upkeep', 'Maintenance Task', 'System Task']
 
-- name:   🚀 Feature Request
+- name: 🧚 Feature Request
   color: 'F8D600'
   description: Requests for new features
   aliases: ['Feature Request', 'New Feature', 'Future Improvement']
 
-- name:  🎪 Epic
+- name: 🎪 Epic
   color: 'F7A6E2'
   description: Large and complex issues that span multiple projects or teams
   aliases: ['Epic Task', 'Major Task', 'Large Work Item']
 
-- name:   📚 Documentation
+- name: 📚 Documentation
   color: '9A9A9A'
   description: Issues related to documentation and user guides
   aliases: ['Docs', 'User Guide', 'Documentation Task']
 
-- name:   🐛 Bug
+- name: 🐛 Bug
   color: 'CC0000'
   description: Issues related to bugs and errors
   aliases: ['Error', 'Bug Task', 'System Error']
@@ -50,61 +46,117 @@
 #       Issue Add-Ons
 #
 
-- name:   🛟 Help Needed
+- name: 🛟 Help Needed
   color: '007CBB'
   description: Issues where assistance is needed
   aliases: ['Help Wanted', 'Assistance Needed', 'Collaboration Request']
 
-- name:   🗳️ Feedback Needed
+- name: 🗳️ Feedback Needed
   color: '0052CC'
   description: Issues where feedback is sought
   aliases: ['Feedback Request', 'Opinion Wanted', 'Input Needed']
 
-- name:   🌱 Good First Task
+- name: 🌱 Good First Task
   color: '208A56'
   description: Issues suitable for new contributors to start with
   aliases: ['Good Starter', 'Good First Issue', 'Good Contribution']
 
-- name:   🤔 Unrefined
+- name: 🤔 Unrefined
   color: 'E2C7A5'
   description: Issues that are still being discussed and refined
   aliases: ['Open Discussion', 'Need Refinement', 'Discussion Item']
 
-- name:   🆕 New
+- name: 🆕 New
   color: 'E2C7A5'
   description: Issues that are newly created
   aliases: ['Fresh', 'Freshly Created', 'New Item']
 
+- name: 🔒 Blocked
+  color: '000000'
+  description: Issues that are blocked by other dependencies or factors
+  aliases: ['Dependency', 'Impediment', 'Roadblock']
+
+- name: 🔥🚒 Urgent
+  color: 'CC0000'
+  description: Issues that require immediate attention
+  aliases: ['Critical', 'High Priority', 'Emergency']
+
+- name: 🔍 Investigation
+  color: '0052CC'
+  description: Issues that require investigation or root cause analysis
+  aliases: ['Root Cause Analysis', 'Investigation Task', 'Debugging']
+
+- name: 📈 Metrics
+  color: '9A9A9A'
+  description: Issues related to performance and metrics tracking
+  aliases: ['Performance', 'Metrics Task', 'Analytics']
+
+- name: 💬 Support
+  color: '007CBB'
+  description: Issues related to user support and customer service
+  aliases: ['Support Task', 'Customer Service', 'Help Desk']
+
 #
 #       Teams
 #
+#           Development Teams
 
-- name:   🖼️ Front End
+- name: 🖼️ Front End
   color: 'E2A6F7'
   description: Issues related to the front end of the project
   aliases: ['UI', 'Front End Task', 'User Interface']
 
-- name:   🍄 Back End
+- name: 🍄 Back End
   color: 'A6F7E2'
   description: Issues related to the back end of the project
   aliases: ['Server', 'Back End Task', 'System Task']
 
-- name:   ⚙️ DevOps
+- name: ⚙️ DevOps
   color: 'F8D600'
   description: Issues related to DevOps and systems administration
   aliases: ['Systems', 'DevOps Task']
 
-- name:   ♿ Accessibility
+- name: ♿ Accessibility
   color: '0052CC'
   description: Issues related to accessibility and user experience
   aliases: ['Accessibility Task', 'UX', 'User Experience']
 
-- name:   🏰 Security
+- name: 🏰 Security
   color: 'CC0033'
   description: Issues related to security and privacy
   aliases: ['Security Task', 'Privacy Task', 'System Security']
 
-- name:   🪢 Community
+  #
+  #         Outreach & Engagement Teams
+
+- name: 🪢 Community
   color: '208A56'
   description: Issues related to the community and outreach
   aliases: ['Open Source', 'Community Focus', 'Outreach']
+
+- name: 📢 Communications
+  color: 'F67019'
+  description: Issues related to marketing and public affairs
+  aliases: ['Marketing', 'Communications', 'Public Affairs']
+
+
+#
+#           Improvement & Management Teams
+
+
+- name: 💾 Data
+  color: '3C40C6'
+  description: Issues related to data and data management
+  aliases: ['Data Management', 'Data Processing', 'Data Analytics']
+
+- name: 🚀 Product
+  color: 'FFCA28'
+  description: Issues related to product development and improvements
+  aliases: ['Product Development', 'Product Management', 'Product Enhancement']
+
+- name: 💻 QA (Quality Assurance)
+  color: '00C781'
+  description: Issues related to quality assurance and testing
+  aliases: ['Quality Control', 'Testing', 'Automation']
+
+
