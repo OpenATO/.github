@@ -11,6 +11,7 @@ on:
 
 jobs:
   labels:
+    name: Pull & Import Labels
     runs-on: ubuntu-latest
 
     steps:
