@@ -1,0 +1,67 @@
+name: 📚 Documentation
+description: Used to assign tasks or responsibilities to specific team members, such as code reviews, testing, or deployment.
+title: "<Title of Task>"
+labels: [🤔 Unrefined, 📚 Documentation]
+body:
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: What needs to be completed for this to be considered done?
+      placeholder: |
+        "- [ ] First Thing"
+        "- [ ] Second Thing"
+        "- [ ] Third Thing"
+        "- [ ] Fourth Thing"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: What needs to be completed for this to be considered done?
+      placeholder: |
+        "- [ ] First Thing"
+        "- [ ] Second Thing"
+        "- [ ] Third Thing"
+        "- [ ] Fourth Thing"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: team
+    attributes:
+      label: Team
+      description: Which team should handle this?
+      multiple: true
+      options:
+        - 🖼️ Front End
+        - 🍄 Back End
+        - ⚙️ DevOps
+        - ♿ Accessability
+        - 🏰 Security
+        - Unknown/TBD/Other
+    validations:
+      required: true
+
+
+
+Title: [Documentation] Short description of documentation improvement
+
+      Description:
+
+      A clear and concise description of the documentation that needs to be written or updated.
+      If applicable, add links to the current documentation that needs improvement.
+      Explain the problem or confusion that the documentation is addressing.
+      Suggest specific changes or improvements that should be made to the documentation.
+      Indicate the priority and potential impact of the documentation on users.
+      Acceptance Criteria:
+
+       The documentation is written in clear and concise language.
+       The documentation includes examples and/or screenshots, if applicable.
+       The documentation is organized and easy to navigate.
+       The documentation covers all necessary information for the user to understand and use the feature/system.
+       The documentation follows the project's style guide.
+      Examples:
+
+      [Documentation] Update installation instructions for Windows
+      [Documentation] Add examples for using the API

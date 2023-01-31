@@ -1,0 +1,35 @@
+name: 🧰 Maintenance
+description: Used for ongoing maintenance tasks, such as dependency updates or performance improvements.
+title: "<Title of Maintenance Task>"
+labels: [🤔 Unrefined,🧰 Maintenance]
+body:
+
+- type: textarea
+  attributes:
+      label: Acceptance Criteria
+      description: What needs to be completed for this to be considered done?
+      placeholder: |
+        "- [ ] First Thing"
+        "- [ ] Second Thing"
+        "- [ ] Third Thing"
+        "- [ ] Fourth Thing"
+  validations:
+      required: true
+
+
+
+- type: dropdown
+  id: team
+  attributes:
+      label: Team
+      description: Which team should handle this?
+      multiple: true
+      options:
+         - 🖼️ Front End
+         - 🍄 Back End
+         - ⚙️ DevOps
+         - ♿ Accessability
+         - 🏰 Security
+         - Unknown/TBD/Other
+  validations:
+    required: false
