@@ -4,6 +4,9 @@ name: Sync labels
 on:
   # You can run this with every type of event, but it's better to run it only when you actually need it.
   workflow_dispatch:
+  schedule:
+  # * is a special character in YAML so you have to quote this string
+  - cron:  '00 5 * * *'
 
 
 jobs:
