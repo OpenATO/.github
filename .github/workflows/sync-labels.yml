@@ -26,7 +26,7 @@ jobs:
     #      source-repo: owner/repo
 
           # If you're using a private source repo or a URL that needs an 'Authorization' header, you'll need to add a custom token for the action to read it
-    #      request-token: ${{ secrets.YOUR_OWN_SECRET }}
+#          request-token: ${{ secrets.YOUR_OWN_SECRET }}
 
           # If you want to delete any additional label, set this to true
           delete-other-labels: false
@@ -35,4 +35,4 @@ jobs:
           dry-run: false
 
           # You can change the token used to change the labels, this is the default one
-          token: ${{ secrets.GITHUB_TOKEN }}
+#          token: ${{ secrets.GITHUB_TOKEN }}
