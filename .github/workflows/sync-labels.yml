@@ -29,7 +29,7 @@ jobs:
     #      request-token: ${{ secrets.YOUR_OWN_SECRET }}
 
           # If you want to delete any additional label, set this to true
-          delete-other-labels: true
+          delete-other-labels: false
 
           # If you want the action just to show you the preview of the changes, without actually editing the labels, set this to true
           dry-run: false
