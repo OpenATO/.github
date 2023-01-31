@@ -1,0 +1,110 @@
+#   OpenATO Label Config
+#
+#       - name: Yet another label
+#         color: '222222'
+#         description: A very inspiring description
+#         aliases: ['first', 'second', 'third']
+#
+#
+#
+#
+
+
+
+#
+#   Issue Types
+#
+
+
+- name: 🛠️ Task
+  color: '0052CC'
+  description: Issues related to tasks that need to be completed
+  aliases: ['Work Item', 'To-Do', 'Task Item']
+
+- name:   🧰 Maintenance
+  color: 'CC0033'
+  description: Issues related to maintenance and upkeep of the project
+  aliases: ['Upkeep', 'Maintenance Task', 'System Task']
+
+- name:   🚀 Feature Request
+  color: 'F8D600'
+  description: Requests for new features
+  aliases: ['Feature Request', 'New Feature', 'Future Improvement']
+
+- name:  🎪 Epic
+  color: 'F7A6E2'
+  description: Large and complex issues that span multiple projects or teams
+  aliases: ['Epic Task', 'Major Task', 'Large Work Item']
+
+- name:   📚 Documentation
+  color: '9A9A9A'
+  description: Issues related to documentation and user guides
+  aliases: ['Docs', 'User Guide', 'Documentation Task']
+
+- name:   🐛 Bug
+  color: 'CC0000'
+  description: Issues related to bugs and errors
+  aliases: ['Error', 'Bug Task', 'System Error']
+
+#
+#       Issue Add-Ons
+#
+
+- name:   🛟 Help Needed
+  color: '007CBB'
+  description: Issues where assistance is needed
+  aliases: ['Help Wanted', 'Assistance Needed', 'Collaboration Request']
+
+- name:   🗳️ Feedback Needed
+  color: '0052CC'
+  description: Issues where feedback is sought
+  aliases: ['Feedback Request', 'Opinion Wanted', 'Input Needed']
+
+- name:   🌱 Good First Task
+  color: '208A56'
+  description: Issues suitable for new contributors to start with
+  aliases: ['Good Starter', 'Good First Issue', 'Good Contribution']
+
+- name:   🤔 Unrefined
+  color: 'E2C7A5'
+  description: Issues that are still being discussed and refined
+  aliases: ['Open Discussion', 'Need Refinement', 'Discussion Item']
+
+- name:   🆕 New
+  color: 'E2C7A5'
+  description: Issues that are newly created
+  aliases: ['Fresh', 'Freshly Created', 'New Item']
+
+#
+#       Teams
+#
+
+- name:   🖼️ Front End
+  color: 'E2A6F7'
+  description: Issues related to the front end of the project
+  aliases: ['UI', 'Front End Task', 'User Interface']
+
+- name:   🍄 Back End
+  color: 'A6F7E2'
+  description: Issues related to the back end of the project
+  aliases: ['Server', 'Back End Task', 'System Task']
+
+- name:   ⚙️ DevOps
+  color: 'F8D600'
+  description: Issues related to DevOps and systems administration
+  aliases: ['Systems', 'DevOps Task']
+
+- name:   ♿ Accessibility
+  color: '0052CC'
+  description: Issues related to accessibility and user experience
+  aliases: ['Accessibility Task', 'UX', 'User Experience']
+
+- name:   🏰 Security
+  color: 'CC0033'
+  description: Issues related to security and privacy
+  aliases: ['Security Task', 'Privacy Task', 'System Security']
+
+- name:   🪢 Community
+  color: '208A56'
+  description: Issues related to the community and outreach
+  aliases: ['Open Source', 'Community Focus', 'Outreach']
