@@ -11,7 +11,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: "#### Background"
+      label: Background
       description: A short history or background of what this task is or why it is being done.
     validations:
       required: false
@@ -47,6 +47,7 @@ body:
         - ⚙️ DevOps
         - ♿ Accessability
         - 🏰 Security
-        - Unknown/TBD/Other
+        - 🪢 Community
+        - 🌀 Unknown/TBD/Other
     validations:
       required: false
