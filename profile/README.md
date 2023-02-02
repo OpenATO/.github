@@ -1,9 +1,5 @@
 ## The Vision
 
-~~OpenATO is a powerful and intuitive software suite designed specifically for government agencies. It seamlessly integrates into existing CI/CD pipelines to streamline the generation and maintenance of ATOs, ensuring compliance with the latest OSCAL requirements at all times.~~
-
-~~With OpenATO, you can rest easy knowing that your agency is always up-to-date, thanks to its direct integration with the latest OSCAL standards. Even when standards change, OpenATO automatically updates your code, so you can stay ahead of the curve. Say goodbye to manual compliance processes and hello to true compliance as code with OpenATO.~~
-
 Acquiring a Federal Authorization To Operate (ATO) is tedious, time-consuming, expensive and doesn’t necessarily enhance system security. Delays between when a system is created and when ATO controls are acquired/responded to/submitted lead to differences between what is reported and authorized and what exists at the system level. The big problem is:  how do we connect the process of developing a control catalog, system component reporting, evidence collection and assessment and turn it into a realtime system security dashboard that can be used by both agency and system administrators?
 
 We propose creating an OpenATO community to collaborate on constructing a framework, tools, documentation and templates to automate Federal system security compliance, from plan creation to component reporting, testing, and assessment – resulting in a standardized framework for developing agency-specific real time system security dashboards.
