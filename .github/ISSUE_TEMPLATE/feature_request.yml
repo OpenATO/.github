@@ -1,7 +1,8 @@
 name: 🚀 Feature Request or Improvement
 description: Use to used to submit ideas for improved functionality or new features to the RapidATO project.
 title: "<Title of Feature Request>"
-labels: [🤔 Unrefined,🚀 Feature Request,🗳️ Feedback Needed]
+labels: [🤔 Unrefined,🧚 Feature Request,🗳️ Feedback Needed, 🚀 Product]
+assignees: [product]
 body:
 
 

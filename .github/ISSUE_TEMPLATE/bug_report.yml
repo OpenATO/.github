@@ -2,6 +2,7 @@ name: 🐛 Bug Report
 description: File a bug/issue
 title: "[BUG] <title>"
 labels: [🐛 Bug,🤔 Unrefined]
+
 body:
 - type: checkboxes
   attributes:
