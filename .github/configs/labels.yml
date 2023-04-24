@@ -16,6 +16,11 @@
   color: '0052CC'
   description: Issues related to tasks that need to be completed
   aliases: ['Work Item', 'To-Do', 'Task Item']
+  
+- name: 🧑‍🏫 Demo
+  color: '0052CC'
+  description: Demo Related Tags
+  aliases: ['Demo', 'Keith', 'things']
 
 - name: 🧰 Maintenance
   color: 'CC0033'
