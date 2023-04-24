@@ -48,6 +48,7 @@ body:
         - ♿ Accessability
         - 🏰 Security
         - 🪢 Community
+        - 🎨 Design
         - 🌀 Unknown/TBD/Other
     validations:
       required: false
