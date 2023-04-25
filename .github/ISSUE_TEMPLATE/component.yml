@@ -1,0 +1,63 @@
+name: 🧩 Component
+description: Used to create or modify a component of a web app, such as UI elements, APIs, or services.
+title: "<Component Name>"
+labels: [🤔 Unrefined, 🧩 Component]
+body:
+  - type: textarea
+    attributes:
+        label: Component Description
+        description: A concise description of the component to be created or modified
+    validations:
+        required: true
+
+  - type: textarea
+    attributes:
+        label: Background
+        description: A short history or background of this component or the reason for the modification
+    validations:
+        required: false
+
+  - type: textarea
+    attributes:
+        label: References
+        description: Useful information or related issues/conversations
+    validations:
+        required: false
+
+  - type: textarea
+    attributes:
+        label: Acceptance Criteria
+        description: What needs to be completed for this component to be considered done?
+        placeholder: |
+            "- [ ] First Requirement"
+            "- [ ] Second Requirement"
+            "- [ ] Third Requirement"
+            "- [ ] Fourth Requirement"
+    validations:
+        required: true
+
+  - type: dropdown
+    id: team
+    attributes:
+        label: Team
+        description: Which team should handle this component?
+        multiple: true
+        options:
+        - 🖼️ Front End
+        - 🍄 Back End
+        - ⚙️ DevOps
+        - ♿ Accessibility
+        - 🏰 Security
+        - 🪢 Community
+        - 🎨 Design
+        - 🌀 Unknown/TBD/Other
+    validations:
+        required: false
+
+  - type: input
+    attributes:
+        label: Related Component(s)
+        description: Specify any related components that this component is dependent on or interacts with
+        placeholder: "e.g., Navbar, API Endpoint, etc."
+    validations:
+        required: false
